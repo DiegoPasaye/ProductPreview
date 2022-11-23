@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2? family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Fraunces:opsz,wght@9.. 144.900&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Jockey+One&display=swap');
+
+
+.contenedor{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+
+.informacion{
+    background-color: white;
+}
+.perfume{
+    margin-left: 10%;
+    font-size: 20px;
+}
+.informacion h1{
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-family: 'Fraunces', serif;
+}
+
+.descripcion{
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    color: gray;
+}
+.producto img{
+    width: 85%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+.precios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Jockey One', sans-serif;
+    color: rgb(63,128,106);
+}
+
+.informacion button{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(63,128,106);
+    color: white;
+    width: 75%;
+}
+.informacion img{
+    width: 15%;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+html{
+    background-color: rgb(243,234,227);
+}
+.precioFijo{
+    margin-left: 5%;
+    font-size: 30px;
+}
+.boton{
+    margin-left: 10%;
+    border: solid white;
+    border-radius: 10px;
+}
+.preciofijo{
+    font-size: 30px;
+    margin-left: 10%;
+    width: 100%;
+}
+.agregarCarrito{
+    margin-right: 30%;
+}
